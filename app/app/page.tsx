@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import { useState } from "react";
-// Fetch weather data from api endpoint,
+// Fetch weather data from api endpoint, test.
 
 export default function Home() {
   const [data, setData] = useState<any>("");
