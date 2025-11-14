@@ -9,7 +9,7 @@ export default function Home() {
     try {
       const response = await fetch(`/api/get-weather-data`);
       if (!response.ok) {
-        throw new Error(reponse.error);
+        throw new Error(response.error);
       }
       const result = await response.json();
       console.log(result);
